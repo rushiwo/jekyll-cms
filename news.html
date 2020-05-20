@@ -1,17 +1,18 @@
 ---
 layout: page
-title: News
+title: 新闻
 permalink: /news/
-headerTitle: Get the latest on what we're doing
-headerSubCopy: Catch up with us anytime, anywhere
+headerTitle: 白山松水·大美吉林
+headerSubCopy: --长白山自然生态研学行
 custom_head_owl: true
+
 ---
 
 {% include global-header.html %}
 
 
 <div class="container">
-  <p>Get the latest informaiton, here we even AJAX a remote API to get the next rocket launch to prove static sites can be dynamic!</p>
+  <p>置顶消息</p>
   <div class="well">
     <!-- Show people static sites can contain live informaiton!!! -->
     {% include next-launch.html %}
@@ -19,7 +20,7 @@ custom_head_owl: true
   {% for post in site.posts %}
   <div class="post-area">
     <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-    <p class="post-date">{{ post.date | date_to_long_string }}</p>
+    <p class="post-date">{{post.date | date: "%Y年%-m月%-d日"}}</p>
     <p>
       {{ post.content | strip_html | truncatewords: 50 }}
     </p>

@@ -1,40 +1,26 @@
 {
-  "top": [{
-      "text": "Home",
+  "top": [
+    {
+      "text": "主页",
       "path": "/"
     },
     {
-      "text": "Directory",
-      "path": "/directory/"
-    },
-    {
-      "text": "Gallery",
-      "path": "/gallery/"
-    },
-    {
-      "text": "News",
+      "text": "新闻",
       "path": "/news/"
     },
     {
-      "text": "Contact",
+      "text": "公司简介",
+      "path": "/intro/"
+    },
+    {
+      "text": "联系我们",
       "path": "/contact/"
-    },
-    {
-      "text": "Data",
-      "path": "/data/"
-    },
-    {
-      "text": "Documents",
-      "path": "/docs/"
     }
   ],
-  "left": [{
+  "left": [
+    {
       "text": "Home",
       "path": "/"
-    },
-    {
-      "text": "Directory",
-      "path": "/directory/"
     }
   ]
 }

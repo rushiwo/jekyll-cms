@@ -6,11 +6,12 @@
 --*/
 
 #slider {
-  background: url("https://picsum.photos/1600/600?random") no-repeat;
+  background: url("https://s1.ax1x.com/2020/04/30/JbkYad.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: 50% 0%;
   padding: 200px 0 200px 0;
+
   position: relative;
   &:before {
     content: "";
@@ -26,6 +27,7 @@
   }
   .block {
     color: #E3E3E4;
+   
     h1 {
       font-family: 'Roboto', sans-serif;
       font-weight: 100;
@@ -46,7 +48,7 @@
 
 
 #feature {
-  background: url("https://picsum.photos/1601/601?random");
+  background: url("https://s1.ax1x.com/2020/04/30/JHzfFf.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;

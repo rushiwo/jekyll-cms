@@ -1,20 +1,18 @@
-title: Jekyll with Netlify CMS
-subtitle: Static speed, with dynamic content
-intro-title: Editable Static Sites
-intro-subtitle: Update via a web UI
+title: 抚松县长白山力行研学实践教育基地
+subtitle: 策划、培训、实践、餐饮、住宿一体化服务
+intro-title: 研学实践教育基地
+intro-subtitle: 学生活动中心
 intro-body: >-
-  Static sites are fast to get up and running and develop on. They are also **performance
-  beasts** but their biggest downside is non technical users editing content. Adding the
-  Netlify CMS to your Jekyll site means clients can update this site via a Web UI. It is
-  no wordpress or Drupal replacement, but gets the job done.
+  技能培训，教育辅助服务，课业辅导；研学实践教育活动、策划与组织；研学课程开发与设计；
+  品牌推广、品牌策划、会议展览服务；艺体类学生考试；体育技能培训及赛事交流活动；夏（冬）令营活动课程设计。
 intro-img: /uploads/8649856355_627bcdeadf_h.jpg
-feature-title: This is Editable!
-feature-subtitle: Even a complex layout like this is editable with the Netlify CMS, you won't be having client adjust the layout like [Gutenberg](https://wordpress.org/plugins/gutenberg/), but they can still keep things up to date!
-testimonial-title: We are the Best
-testimonial-subtitle: Even these complex icon graphics below can be updated
-hotels: '15'
-resturants: '25'
-museums: '100'
-minutes: '12'
-services-title: Service Offered
-services-subtitle: There is a service.yml that Netlify CMS can edit to change the below
+feature-title: 研学旅行是什么？
+feature-subtitle:  研学旅行指的是研究性学习和旅行体验相结合，学生集体参加的有组织、有计划、有目的的校外参观体验实践活动。研学要以年级为单位，以班为单位进行集体活动，同学们在老师或者辅导员的带领下，确定主题，以课程为目标，以动手做、做中学的形式，共同体验，分组活动，相互研讨，书写研学日志，形成研学总结报告。
+testimonial-title: 优质服务，助力研学
+testimonial-subtitle: 体验过的都点赞！
+hotels: '2'
+resturants: '3'
+museums: '1'
+minutes: '33'
+services-title: 服务内容
+services-subtitle: 优质服务，助力研学

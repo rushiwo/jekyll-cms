@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: 主页
 permalink: /
 custom_head_owl: true
 custom_head_counterup: true
@@ -47,7 +47,7 @@ custom_head_counterup: true
     <div class="content col-md-6 col-md-offset-6">
       <h2>{{ site.data.home.feature-title }}</h2>
       <p>{{ site.data.home.feature-subtitle  | markdownify }}</p>
-      <a href="#" class="btn btn-view-works">Start Planning</a>
+      <a href="/news/" class="btn btn-view-works">了解详情</a>
     </div>
   </div>
 </section>
@@ -71,28 +71,28 @@ custom_head_counterup: true
               <div class="block">
                 <i class="fa fa-home"></i>
                 <h4 class="counter">{{ site.data.home.hotels }}</h4>
-                <span>Hotels</span>
+                <span>酒店</span>
               </div>
             </li>
             <li>
               <div class="block">
                 <i class="fa fa-beer"></i>
                 <h4 class="counter">{{ site.data.home.resturants }}</h4>
-                <span>Resturants</span>
+                <span>餐馆</span>
               </div>
             </li>
             <li>
               <div class="block">
                 <i class="fa fa-university"></i>
                 <h4 class="counter">{{ site.data.home.museums }}</h4>
-                <span>Museums</span>
+                <span>展览馆</span>
               </div>
             </li>
             <li>
               <div class="block">
-                <i class="fa fa-plane"></i>
-                <h4><span class="counter">{{ site.data.home.minutes }}</span> Minutes</h4>
-                <span>Drive from the Airport</span>
+                <i class="fa fa-train"></i>
+                <h4><span class="counter">{{ site.data.home.minutes }}</span>分钟</h4>
+                <span>从火车站出发</span>
               </div>
             </li>
 
@@ -103,27 +103,28 @@ custom_head_counterup: true
         <div class="testimonial-carousel">
           <div id="testimonial-slider" class="owl-carousel">
             <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> Shoutout to the {{site.data.business.name}} for
-                such a great demo. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+              <p><i class="fa fa-quote-left" aria-hidden="true"></i> {{site.data.business.name}}，
+                完美体验！. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
               <div class="user">
                 <img src="img/twitter-user-1.jpg" alt="Pepole">
-                <p><span>Bob Henson</span> via Twitter</p>
+                <p><span>小明</span>微信朋友圈</p>
               </div>
             </div>
             <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> Static sites are security fortresses! <i class="fa fa-quote-right"
+              <p><i class="fa fa-quote-left" aria-hidden="true"></i> 孩子学到了很多课外知识!<i class="fa fa-quote-right"
                   aria-hidden="true"></i> </p>
               <div class="user">
                 <img src="img/twitter-user-2.jpg" alt="Pepole">
-                <p><span>Clay Risro</span> via Twitter</p>
+                <p><span>Clay Risro</span>微信朋友圈</p>
               </div>
             </div>
             <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> I love not having a CMS to have to update all the
-                time. <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+              <p><i class="fa fa-quote-left" aria-hidden="true"></i>
+                亲近自然，陶冶情操！
+                <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
               <div class="user">
                 <img src="img/twitter-user-3.jpg" alt="Pepole">
-                <p><span>Rose Ray</span> via Twitter</p>
+                <p><span>Rose Ray</span>微信朋友圈</p>
               </div>
             </div>
           </div>
@@ -172,8 +173,8 @@ custom_head_counterup: true
   // Counter up
   if ($(".counter").length) {
     $('.counter').counterUp({
-        delay: 10,
-        time: 1000
+      delay: 10,
+      time: 1000
     });
   }
 </script>

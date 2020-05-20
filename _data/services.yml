@@ -1,14 +1,12 @@
 services:
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+      提供中餐、西餐
     icon: fa-cutlery
-    title: Catering
+    title: 餐厅
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+      提供大型会议展览服务，场地300平米
     icon: fa-bullhorn
-    title: Conference Services
+    title: 会议服务
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
       eiusmod       tempor incididunt
