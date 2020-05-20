@@ -8,32 +8,26 @@ services:
     icon: fa-bullhorn
     title: 会议服务
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+      提供室内体育场地
     icon: fa-plus
-    title: Room Setup
+    title: 活动中心
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+      提供量贩式KTV
     icon: fa-music
-    title: Audio/Visuals
+    title: KTV
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+      提供海报、横幅打印服务
     icon: fa-print
-    title: Printing
+    title: 打印服务
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+      提供免费WIFI
     icon: fa-wifi
     title: WiFi
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+      专业导游解说
     icon: fa-map-signs
-    title: Floor Planning
+    title: 导游
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+      免费停车场
     icon: fa-car
-    title: Parking
+    title: 停车
